@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Kanto Pokedex
+//  Kanto-Pokedex
 //
-//  Created by George Alexiou on 25/07/2019.
+//  Created by George Alexiou on 30/7/19
 //  Copyright © 2019 George Alexiou. All rights reserved.
 //
 
@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+        let layout = UICollectionViewFlowLayout()
+        let navController = UINavigationController(rootViewController: PokedexController(collectionViewLayout: layout))
+        
+        window?.rootViewController = navController
+        
         return true
     }
 
