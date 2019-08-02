@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		23186EC721EA7D3C0071520C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		23186EFE21ECFE8F0071520C /* PokemonInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoController.swift; sourceTree = "<group>"; };
-		23B062C421E55B49002234EA /* Kanto-Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanto-Pokedex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B062C421E55B49002234EA /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B062C721E55B49002234EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23B062CC21E55B49002234EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23B062CE21E55B4B002234EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		23B062BB21E55B49002234EA = {
 			isa = PBXGroup;
 			children = (
-				23B062C621E55B49002234EA /* Kanto-Pokedex */,
+				23B062C621E55B49002234EA /* Pokedex */,
 				23B062C521E55B49002234EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		23B062C521E55B49002234EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23B062C421E55B49002234EA /* Kanto-Pokedex.app */,
+				23B062C421E55B49002234EA /* Pokedex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23B062C621E55B49002234EA /* Kanto-Pokedex */ = {
+		23B062C621E55B49002234EA /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
 				23B062DD21E55B5F002234EA /* Model */,
@@ -77,7 +77,7 @@
 				23B062D021E55B4B002234EA /* LaunchScreen.storyboard */,
 				23B062D321E55B4B002234EA /* Info.plist */,
 			);
-			path = "Kanto-Pokedex";
+			path = Pokedex;
 			sourceTree = "<group>";
 		};
 		23B062D921E55B57002234EA /* Utils */ = {
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23B062C321E55B49002234EA /* Kanto-Pokedex */ = {
+		23B062C321E55B49002234EA /* Pokedex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23B062D621E55B4B002234EA /* Build configuration list for PBXNativeTarget "Kanto-Pokedex" */;
+			buildConfigurationList = 23B062D621E55B4B002234EA /* Build configuration list for PBXNativeTarget "Pokedex" */;
 			buildPhases = (
 				23B062C021E55B49002234EA /* Sources */,
 				23B062C121E55B49002234EA /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = "Kanto-Pokedex";
+			name = Pokedex;
 			productName = PokedexMVC;
-			productReference = 23B062C421E55B49002234EA /* Kanto-Pokedex.app */;
+			productReference = 23B062C421E55B49002234EA /* Pokedex.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23B062BF21E55B49002234EA /* Build configuration list for PBXProject "Kanto-Pokedex" */;
+			buildConfigurationList = 23B062BF21E55B49002234EA /* Build configuration list for PBXProject "Pokedex" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23B062C321E55B49002234EA /* Kanto-Pokedex */,
+				23B062C321E55B49002234EA /* Pokedex */,
 			);
 		};
 /* End PBXProject section */
@@ -348,13 +348,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NBKZT8Z59W;
-				INFOPLIST_FILE = "Kanto-Pokedex/Info.plist";
+				INFOPLIST_FILE = Pokedex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.alexiou.Kanto-Pokedex";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.alexiou.Pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -367,13 +367,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NBKZT8Z59W;
-				INFOPLIST_FILE = "Kanto-Pokedex/Info.plist";
+				INFOPLIST_FILE = Pokedex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.alexiou.Kanto-Pokedex";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.alexiou.Pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -383,7 +383,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23B062BF21E55B49002234EA /* Build configuration list for PBXProject "Kanto-Pokedex" */ = {
+		23B062BF21E55B49002234EA /* Build configuration list for PBXProject "Pokedex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23B062D421E55B4B002234EA /* Debug */,
@@ -392,7 +392,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23B062D621E55B4B002234EA /* Build configuration list for PBXNativeTarget "Kanto-Pokedex" */ = {
+		23B062D621E55B4B002234EA /* Build configuration list for PBXNativeTarget "Pokedex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23B062D721E55B4B002234EA /* Debug */,
