@@ -2,7 +2,10 @@
 This is a Swift Pokemon App made for the iPhone, all images and characters shown are property of the Pokemon company.
 
 # v0.1 (Prerelease 1)
-This version of the application contains basic functionality.
+This version of the application contains basic functionality. This includes:
+ - All original 151 Pokemon
+ - Generation 4 images of Pokemon
+ - Descriptions, Types (not dual types)
 
 ![Screenshots-v0.1](https://imgur.com/f6vZqTJ.png)
 
