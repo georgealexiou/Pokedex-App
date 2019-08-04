@@ -8,6 +8,11 @@ This version of the application contains basic functionality. This includes:
  - All original 151 Pokemon
  - Generation 4 images of Pokemon
  - Descriptions, Types (not dual types)
+ 
+Issues in this version:
+ - The types of the Pokemon are wrong
+ - Images of Pokemon are low resolution
+ - Evolutions of pokemon are not showing up
 
 ![Screenshots-v0.1](https://imgur.com/f6vZqTJ.png)
 
